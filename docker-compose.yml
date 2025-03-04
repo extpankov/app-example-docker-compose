@@ -3,7 +3,7 @@ services:
   dog-backend:
     build: 
       context: .
-      dockerfile: ./backend/Dockerfile
+      dockerfile: Dockerfile.backend
     container_name: dog-backend
     ports:
       - "8000:8000"
